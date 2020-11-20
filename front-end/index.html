@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>API List Path Client Example</title>
+    <script type="text/javascript" src="assets/js/index.js" differ></script>
+  </head>
+
+  <body>
+    <label for="client-input">API List Path Input: </label>
+    <input id="client-input" type="text" value=".">
+    <br>
+    <input for="client-input"
+           data-output-id="service-output"
+           data-api-url="http://localhost:8080/list"
+           id="POST-button"
+           type="button"
+           value="Request">
+    <br>
+
+    <label for="service-output">API List Path Output</label>
+    <br>
+    <pre id="service-output"></pre>
+  </body>
+</html>
