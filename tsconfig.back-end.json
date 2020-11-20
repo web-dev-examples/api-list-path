@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "back-end",
+    "lib": [ "es2017" ],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "commonjs"
+  },
+  "include": [
+    "ts/back-end/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "ts/front-end",
+    "ts/jest"
+  ]
+}
+

@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "front-end/assets/js",
+    "lib": [ "dom","es2017" ],
+    "sourceMap": true
+  },
+  "include": [
+    "ts/front-end/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "ts/back-end",
+    "ts/jest"
+  ]
+}
